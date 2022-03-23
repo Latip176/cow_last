@@ -22,17 +22,14 @@ python3 -m pip install requests bs4 Cython
 ```
 # Menjalankan Tool
 Tool ini bisa di jalankan di 32 Bit dan 64 Bit.
-Untuk mengetahui Bit dari Perangkat kalian. Kalian ketikan 
-```uname -m``` di Command promt Terminal kalian!
-## Commands 64 Bit
+## Setup cython ( bagi yang belum )
 ```BASH
-cd $HOME/cow_last
-python run.py --bit 64
+cythonize -i main.c
 ```
-## Commands 32 Bit
+## Menjalankan 
 ```BASH
 cd $HOME/cow_last
-python run.py --bit 32
+python run.py
 ```
 # Thanks To TEAM
 - Marga-176
