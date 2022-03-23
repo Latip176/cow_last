@@ -24,6 +24,7 @@ python3 -m pip install requests bs4 Cython
 Tool ini bisa di jalankan di 32 Bit dan 64 Bit.
 ## Setup cython ( bagi yang belum )
 ```BASH
+cd cow_last
 cythonize -i main.c
 ```
 ## Menjalankan 
