@@ -2176,7 +2176,7 @@ static const char __pyx_k_accessToken_EAA_w[] = "\\{\"accessToken\"\\:\"(EAA\\w+
   static const char __pyx_k_Ops_Username_tidak_ditemukan[] = "[!] Ops! Username tidak ditemukan.";
   static const char __pyx_k_Apk_tidak_berhasil_didapatkan[] = "\r !> Apk tidak berhasil didapatkan                             ";
   static const char __pyx_k_https_developers_facebook_com[] = "https://developers.facebook.com/";
-  static const char __pyx_k_Cow_Crack_Last_Update_Latip176[] = " \t\t( Cow_Crack Last Update )\n \tLatip176, Version: %s0.3.1%s, Team: Marga-176\342\204\242\n\n + Nama\t: ";
+  static const char __pyx_k_Cow_Crack_Last_Update_Latip176[] = " \t\t( Cow_Crack Last Update )\n \tLatip176, Version: %s0.3.2%s, Team: Marga-176\342\204\242\n\n + Nama\t: ";
   static const char __pyx_k_Not_A_Brand_v_99_Chromium_v_98[] = "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\"";
   static const char __pyx_k_Periksa_jaringan_Internet_Anda[] = "! Periksa jaringan Internet Anda !";
   static const char __pyx_k_Pilihan_tidak_ada_coba_periksa[] = " ! Pilihan tidak ada coba periksa kembali !";
@@ -2812,7 +2812,7 @@ static PyObject *__pyx_pf_4main_5Crack_4_mobile(CYTHON_UNUSED PyObject *__pyx_se
 static PyObject *__pyx_pf_4main_4Dump__pertemanan(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id); 
 static PyObject *__pyx_pf_4main_4Dump_2_followers(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id); 
 static PyObject *__pyx_pf_4main_4Dump_4_pencarian(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_link); 
-static PyObject *__pyx_pf_4main_8Get_info__getApk(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session, PyObject *__pyx_v_user, PyObject *__pyx_v_pw, PyObject *__pyx_v_coki); 
+static PyObject *__pyx_pf_4main_8Get_info__getApk(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_session, PyObject *__pyx_v_user, PyObject *__pyx_v_pw, PyObject *__pyx_v_coki); 
 static PyObject *__pyx_pf_4main_8Get_info_2_getInfo(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_coki); 
 static PyObject *__pyx_pf_4main_6Submit__mulai_save(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); 
 static PyObject *__pyx_pf_4main_6Submit_2_pilih_password(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); 
@@ -12813,7 +12813,7 @@ static PyObject *__pyx_pf_4main_4Dump_4_pencarian(CYTHON_UNUSED PyObject *__pyx_
 static PyObject *__pyx_pw_4main_8Get_info_1_getApk(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); 
 static PyMethodDef __pyx_mdef_4main_8Get_info_1_getApk = {"_getApk", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_4main_8Get_info_1_getApk, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_4main_8Get_info_1_getApk(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyObject *__pyx_v_self = 0;
+  CYTHON_UNUSED PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_session = 0;
   PyObject *__pyx_v_user = 0;
   PyObject *__pyx_v_pw = 0;
@@ -12907,7 +12907,7 @@ static PyObject *__pyx_pw_4main_8Get_info_1_getApk(PyObject *__pyx_self, PyObjec
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_4main_8Get_info__getApk(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session, PyObject *__pyx_v_user, PyObject *__pyx_v_pw, PyObject *__pyx_v_coki) {
+static PyObject *__pyx_pf_4main_8Get_info__getApk(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_session, PyObject *__pyx_v_user, PyObject *__pyx_v_pw, PyObject *__pyx_v_coki) {
   PyObject *__pyx_v_hit1 = NULL;
   PyObject *__pyx_v_cek = NULL;
   PyObject *__pyx_v_cek2 = NULL;
@@ -13103,26 +13103,6 @@ static PyObject *__pyx_pf_4main_8Get_info__getApk(CYTHON_UNUSED PyObject *__pyx_
   __pyx_t_3 = (__pyx_t_6) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_6) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 350, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-  
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_getInfo); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 351, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_6)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_6);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-    }
-  }
-  __pyx_t_3 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_6, __pyx_v_coki) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_coki);
-  __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 351, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
